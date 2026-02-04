@@ -37,6 +37,13 @@ class MainActivity : AppCompatActivity() {
         registerButton.setOnClickListener {
             handleRegister()
         }
+        val seedDataButton = findViewById<Button>(R.id.seedDataButton)
+        seedDataButton.setOnClickListener {
+            Toast.makeText(this, "Seeding recipes...", Toast.LENGTH_SHORT).show()
+            DatabaseSeeder().seedRecipes {
+                Toast.makeText(this, "5 recipes added to database!", Toast.LENGTH_LONG).show()
+            }
+        }
     }
 
     private fun handleLogin() {

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "949937242175",
+    "project_id": "mealprep-abea0",
+    "storage_bucket": "mealprep-abea0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949937242175:android:4159416f02713ad214788a",
+        "android_client_info": {
+          "package_name": "com.sovanna.mealprep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_1tc4TWBvL0VIgAuQOI4pScw3tBh_ji0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
